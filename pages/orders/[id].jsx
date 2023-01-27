@@ -16,26 +16,40 @@ function Order() {
       <div className={styles.left}>
         <div className={styles.row}>
           <table className={styles.table}>
-            <tr className={styles.tr}>
-              <th>Order ID</th>
-              <th>Customer</th>
-              <th>Address</th>
-              <th>Total</th>
-            </tr>
-            <tr>
-              <td>
-                <span className={styles.id}>241242343</span>
-              </td>
-              <td>
-                <span className={styles.name}>John Doe</span>
-              </td>
-              <td>
-                <span className={styles.adress}>Jln. Kartini no 21</span>
-              </td>
-              <td>
-                <span className={styles.total}>$39.80</span>
-              </td>
-            </tr>
+            <thead>
+              <tr className={styles.trTitle}>
+                <th>
+                  {" "}
+                  <div>Order ID</div>
+                </th>
+                <th>
+                  <div>Customer</div>
+                </th>
+                <th>
+                  <div>Address</div>
+                </th>
+                <th>
+                  <div>Total</div>
+                </th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr className={styles.tr}>
+                <td>
+                  <span className={styles.id}>241242343</span>
+                </td>
+                <td>
+                  <span className={styles.name}>John Doe</span>
+                </td>
+                <td>
+                  <span className={styles.adress}>Jln. Kartini no 21</span>
+                </td>
+                <td>
+                  <span className={styles.total}>$39.80</span>
+                </td>
+              </tr>
+            </tbody>
           </table>
         </div>
 

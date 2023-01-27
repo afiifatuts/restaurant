@@ -5,7 +5,7 @@ import styles from "../styles/PizzaCard.module.css"
 function PizzaCard() {
   return (
     <div className={styles.container}>
-        <Image src="/img/pizza.png" alt="pizza" width="500" height="500"/>
+        <Image src="/img/pizza.png" alt="pizza" width="400" height="400"/>
         <h1 className={styles.title}>FIORI DI ZUCCA</h1>
         <span className={styles.price}>$19.90</span>
         <p className={styles.desc}>
